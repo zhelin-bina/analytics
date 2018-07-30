@@ -32,22 +32,11 @@
 npm-debug.log
 testem.log
 /typings
-/test-reports
 
 # e2e
-/src/environments/*.js
-/e2e/**/*.js
-/e2e/**/*.map
-/e2e/reports/**/*
-/e2e/formal_features_run
+/e2e/*.js
+/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
-
-# whitesource
-ws-log-npm-report
-ws-log-report-post.json
-ws-log-report.json
-ws-log-response-npm.json
-ws-ls.json
