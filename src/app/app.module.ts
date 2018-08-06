@@ -33,7 +33,7 @@ const ROUTES: Routes = [
     RouterModule.forRoot(ROUTES),
     Angulartics2Module,
     Angulartics2Module.forRoot([Angulartics2GoogleAnalytics]),
-    Angulartics2Module.forRoot([ Angulartics2GoogleTagManager ]),
+    Angulartics2Module.forRoot([ Angulartics2GoogleTagManager ])
   ],
   providers: [],
   bootstrap: [AppComponent]
