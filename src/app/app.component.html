@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
@@ -12,8 +11,8 @@
     <h2><a target="_blank"
            href="https://angular.io/tutorial"
            angulartics2On="click"
-           angularticsAction="DownloadClick"
-           [angularticsCategory]="'link1'">Tour of Heroes</a></h2>
+           angularticsAction="LinkClick"
+           [angularticsCategory]="'tour_of_heros_link'">Tour of Heroes</a></h2>
   </li>
   <li>
     <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
@@ -22,9 +21,12 @@
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
 </ul>
-=======
-<a routerLink="home">home</a>
-<a routerLink="detail">detail</a>
+<a routerLink="home"
+   angulartics2On="click"
+   angularticsAction="LinkClick"
+   [angularticsCategory]="'home_link'">home</a>
+<a routerLink="detail"
+   angulartics2On="click"
+   angularticsAction="LinkClick"
+   [angularticsCategory]="'detail_link'">detail</a>
 <router-outlet></router-outlet>
-
->>>>>>> e3bedb00edd4957093aec93ed1dad5e552812fd9
