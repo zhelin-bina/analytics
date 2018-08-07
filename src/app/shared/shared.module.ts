@@ -4,6 +4,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
+import {Angulartics2Module} from "angulartics2";
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import {RouterModule} from '@angular/router';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    Angulartics2Module
   ],
   exports: [
     CommonModule,
@@ -20,7 +22,8 @@ import {RouterModule} from '@angular/router';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    Angulartics2Module
   ]
 })
 export class SharedModule {}
